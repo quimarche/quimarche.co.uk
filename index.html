@@ -11,7 +11,7 @@
       a:link, a:visited, a:hover, a:active, div {
         color: #CCC;
       }
-      body, div, html {
+      body, html {
         height: 100%;
       }
       body {
@@ -21,25 +21,27 @@
         -webkit-align-items: center;
         -webkit-justify-content: center;
         align-items: center;
-        display: -webkit-box;
         display: -webkit-flex;
         display: flex;
         justify-content: center;
-      }
-      div.b {
-        font: 96px "Spicy Rice";
+        height: 100%
       }
       div.c {
+        font: 96px "Spicy Rice";
+      }
+      div.d {
         font: 26px "Spicy Rice";
+        text-align: center;
       }
     </style>
     <title>l'homme qui marche</title>
   </head>
   <body>
     <div class="a">
-      <div class="b">l'homme qui marche</div>
-      <br>
-      <div class="b">For support, please email <a href="mailto:support@quimarche.co.uk?subject=Support">us</a>.</div>
+      <div class="b">
+        <div class="c">l'homme qui marche</div>
+        <div class="d">For support, please email <a href="mailto:support@quimarche.co.uk?subject=Support">us</a>.</div>
+      </div>
     </div>
   </body>
 </html>
